@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+.mainContainer {
+    width: 60vw;
+    height: 40vh;
+    margin: 50px auto;
+    font-family: Arial, sans-serif;
+    background-color: #075568;
+    align-content: center;
+    border: 3px solid red;
+    border-radius: 4px;
+    padding: 20px;
+}
+header {
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 30px;
+    color: white;
+}
+.search {
+    display: flex;
+    justify-content: center;
+}
+.search-bar {
+    height: 30px;
+    width: 100px;
+    background-color: white;
+    border: none;
+    padding: 0 20px;
+    border-radius: 5px 0 0 5px;
+    font-size: 20px;
+}
+.guess {
+    height: 30px;
+    width: 100px;
+    background-color: black;
+    color: darkgreen;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+.guess:hover {
+    background-color: dimgrey;
+}
+.user-guess {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: white;
+}
+.play-or-exit {
+    display: flex;
+    justify-content: space-evenly;
+}
+.play {
+    padding: 10px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: black;
+    background-color: green;
+    transition: all 0.2s ease-in-out;
+}
+.exit {
+    padding: 10px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    background-color: red;
+    transition: all 0.2s ease-in-out;
+}
+.play:hover {
+    background-color: lightgreen;
+}
+.exit:hover {
+    background-color: firebrick;
+}
