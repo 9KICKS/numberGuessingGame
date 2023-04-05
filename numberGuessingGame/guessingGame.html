@@ -9,14 +9,15 @@
 <div class="mainContainer">
     <header>Guessing Game</header>
     <div class="search">
-        <input class="search-bar" type="number">
-        <button class="guess">Guess</button>
+        <input class="search-bar" type="number" id="userGuessInput">
+        <button class="guess" id="guessButton">Guess</button>
     </div>
-    <h1 class="user-guess">Guess a number between <br> 1 and 1000</h1>
+    <h1 class="user-guess" id="userGuessText">Guess a number between <br> 1 and 1000</h1>
     <div class="play-or-exit">
-        <button class="play">Play Game</button>
-        <button class="exit">Exit Game</button>
+        <button class="play" id="playButton">Play Game</button>
+        <button class="exit" id="exitButton">Exit Game</button>
     </div>
 </div>
+<script src="./guessingGame.js"></script>
 </body>
 </html>
