@@ -22,7 +22,7 @@ function guessGame() {
     }
 
     function exitGame() {
-        userGuessText.innerText = "Thanks for playing.";
+        userGuessText.innerText = `You lost! The correct number was ${jackpotNumber}. Thanks for playing.`;
         userGuessInput.disabled = true;
         guessButton.disabled = true;
         playButton.disabled = false;
